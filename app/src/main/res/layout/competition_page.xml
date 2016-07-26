@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/pb_competition_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_competition_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_error_page"
+        android:visibility="gone"/>
+
+    <!--  <com.andview.refreshview.XRefreshView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:xrefreshview="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/xfv_fragment_competition"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          xrefreshview:autoRefresh="true" >-->
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <include layout="@layout/advertisement" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tl_competition_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp2_competition_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="1450dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <!--   </com.andview.refreshview.XRefreshView>-->
+</FrameLayout>
+

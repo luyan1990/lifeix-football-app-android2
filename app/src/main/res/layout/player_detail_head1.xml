@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_margin="10dp">
+
+    <com.l99.chinafootball.ui.RatioimageView
+        android:background="@drawable/placehold_player"
+        android:id="@+id/avatar_player_detail_head1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/name_player_detail_head1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="球员姓名"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生日"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:id="@+id/birthday_player_detail_head1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生日"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身高/体重"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:id="@+id/height_weight_player_detail_head1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身高/体重"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场上位置"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:id="@+id/position_player_detail_head1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场上位置"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出生地"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:id="@+id/birthplace_player_detail_head1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出生地"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="俱乐部"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:id="@+id/company_player_detail_head1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属俱乐部"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

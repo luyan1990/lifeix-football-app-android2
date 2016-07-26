@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+        <TextView
+            android:id="@+id/tv_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2018年赛制方案"
+            android:textSize="16sp"
+            android:textColor="#77000000"
+            android:background="#22000000"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"/>
+
+        <WebView
+            android:id="@+id/wv_head"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+</LinearLayout>
